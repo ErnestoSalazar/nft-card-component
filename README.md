@@ -12,7 +12,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 
 ## Overview
-This is a challenge to create a NFT card component made with simple HTML/CSS
+This is a challenge to create a NFT preview card component made with simple HTML/CSS
 
 ### The challenge
 
@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/nft-preview-card-component-xfITbfD8bf)
+- [Live Site URL](https://ernestosalazar.github.io/nft-card-component/)
 
 ## Author
 - Frontend Mentor - [@ErnestoSalazar](https://www.frontendmentor.io/profile/ErnestoSalazar)
