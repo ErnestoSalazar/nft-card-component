@@ -23,13 +23,16 @@ a:hover {
   --white: 0, 0%, 100%;
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
   font-family: Outfit;
   height: 100vh;
   background-color: hsl(var(--dark-blue-main-bg));
@@ -42,11 +45,11 @@ main {
 
 .card {
   position: relative;
-  max-width: 330px;
-  min-height: 545px;
+  max-width: 18.3333rem;
+  min-height: 30.2777rem;
   border-radius: 10px;
   background-color: hsl(var(--dark-blue-card-bg));
-  padding: 20px;
+  padding: 1.1111rem;
 }
 
 .card::before,
@@ -77,13 +80,19 @@ main {
 .img-section a {
   position: relative;
   display: block;
-  border-radius: 10px;
+  border-radius: 0.5555rem;
+  overflow-x: hidden;
+}
+
+.img-section a span {
+  position: absolute;
+  left: -100rem;
 }
 
 .img-section img {
   display: block;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0.5555rem;
 }
 
 .img-section a::after {
@@ -94,7 +103,7 @@ main {
   height: 100%;
   top: 0;
   left: 0;
-  border-radius: 10px;
+  border-radius: 0.5555rem;
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
@@ -108,27 +117,28 @@ main {
 
 
 .card-content {
-  padding-bottom: 14px;
-  border-bottom: 1px solid hsl(var(--dark-blue));
-  margin-bottom: 15px;
+  padding-bottom: 0.7777rem;
+  border-bottom: 0.0555rem solid hsl(var(--dark-blue));
+  margin-bottom: 0.8333rem;
 }
 
-.card-content h3 {
+.card-content h1 {
   font-weight: 600;
+  font-size: 1.17rem;
 }
 
 .card-content p {
   margin-bottom: 0;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 0.9444rem;
 }
 
 .card-content-price-time {
-  margin-top: 25px;
+  margin-top: 1.3888rem;
   position: relative;
   display: flex;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 0.8888rem;
 }
 
 .price {
@@ -138,12 +148,12 @@ main {
 .price img {
   display: inline;
   vertical-align: middle;
-  width: 12px;
+  width: 0.6666rem;
 }
 
 .time img {
   display: inline;
-  width: 20px;
+  width: 1.1111rem;
   vertical-align: top;
 }
 
@@ -151,19 +161,19 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 16px;
+  font-size: 0.8888rem;
 }
 
 .card-profile-info img {
-  max-width: 30px;
-  max-height: 30px;
+  max-width: 1.6666rem;
+  max-height: 1.6666rem;
   border-radius: 50%;
-  border: 1px solid hsl(var(--white));
+  border: 0.0555rem solid hsl(var(--white));
 }
 
 .card-profile-info span {
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 0.8333rem;
 }
 
 .attribution {
@@ -178,6 +188,6 @@ main {
 
 @media only screen and (min-width: 1440px) {
   .card {
-    max-width: 350px;
+    max-width: 19.4444rem;
   }
 }
