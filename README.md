@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/nft-preview-card-component-xfITbfD8bf)
-- [Live Site URL](https://ernestosalazar.github.io/nft-card-component/)
+- [Live Site URL](https://ernestosalazar.github.io/nft-preview-card-component/)
 
 ## Author
 - Frontend Mentor - [@ErnestoSalazar](https://www.frontendmentor.io/profile/ErnestoSalazar)
